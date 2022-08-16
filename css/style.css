@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+
+body {
+    background-color: #FFB4B4;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 200px;
+}
+
+.ck-content .image {
+    max-width: 80%;
+    margin: 25px auto;
+}
+
+.card-header {
+    background-color: #7A4495;
+}
+
+.card-body {
+    background-color: #B270A2;
+}
+
+.organization {
+    font-size: .85em;
+    background-color: #89cefc;
+    display: inline-block;
+    color: rgb(82, 82, 82);
+    padding: 2px 8px;
+}
